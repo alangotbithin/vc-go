@@ -16,15 +16,15 @@ import (
 	"github.com/stretchr/testify/require"
 	vdr "github.com/trustbloc/did-go/vdr/mock"
 
-	"github.com/trustbloc/vc-go/verifiable"
+	"github.com/alangotbithin/vc-go/verifiable"
 
-	"github.com/trustbloc/vc-go/status/api"
-	"github.com/trustbloc/vc-go/status/internal/bitstring"
-	"github.com/trustbloc/vc-go/status/resolver"
-	"github.com/trustbloc/vc-go/status/validator"
-	"github.com/trustbloc/vc-go/status/validator/statuslist2021"
+	"github.com/alangotbithin/vc-go/status/api"
+	"github.com/alangotbithin/vc-go/status/internal/bitstring"
+	"github.com/alangotbithin/vc-go/status/resolver"
+	"github.com/alangotbithin/vc-go/status/validator"
+	"github.com/alangotbithin/vc-go/status/validator/statuslist2021"
 
-	. "github.com/trustbloc/vc-go/status"
+	. "github.com/alangotbithin/vc-go/status"
 )
 
 const issuerID = "issuer-id"

@@ -22,11 +22,11 @@ import (
 	"github.com/tidwall/sjson"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/trustbloc/vc-go/presexch/internal/requirementlogic"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
+	"github.com/alangotbithin/vc-go/presexch/internal/requirementlogic"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
 
-	"github.com/trustbloc/vc-go/sdjwt/common"
-	"github.com/trustbloc/vc-go/verifiable"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
+	"github.com/alangotbithin/vc-go/verifiable"
 )
 
 const (

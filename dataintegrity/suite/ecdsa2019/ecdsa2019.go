@@ -21,10 +21,10 @@ import (
 	"github.com/trustbloc/kms-go/spi/kms"
 	wrapperapi "github.com/trustbloc/kms-go/wrapper/api"
 
-	"github.com/trustbloc/vc-go/crypto-ext/pubkey"
-	"github.com/trustbloc/vc-go/crypto-ext/verifiers/ecdsa"
-	"github.com/trustbloc/vc-go/dataintegrity/models"
-	"github.com/trustbloc/vc-go/dataintegrity/suite"
+	"github.com/alangotbithin/vc-go/crypto-ext/pubkey"
+	"github.com/alangotbithin/vc-go/crypto-ext/verifiers/ecdsa"
+	"github.com/alangotbithin/vc-go/dataintegrity/models"
+	"github.com/alangotbithin/vc-go/dataintegrity/suite"
 )
 
 const (

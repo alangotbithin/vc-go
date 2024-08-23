@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/trustbloc/vc-go/dataintegrity"
-	"github.com/trustbloc/vc-go/dataintegrity/models"
+	"github.com/alangotbithin/vc-go/dataintegrity"
+	"github.com/alangotbithin/vc-go/dataintegrity/models"
 )
 
 // DataIntegrityProofContext holds parameters for creating or validating a Data Integrity Proof.

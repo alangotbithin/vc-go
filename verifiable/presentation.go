@@ -14,8 +14,8 @@ import (
 	jsonld "github.com/piprate/json-gold/ld"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/trustbloc/vc-go/dataintegrity"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
+	"github.com/alangotbithin/vc-go/dataintegrity"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
 
 	docjsonld "github.com/trustbloc/did-go/doc/ld/validator"
 )

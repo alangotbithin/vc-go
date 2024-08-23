@@ -23,16 +23,16 @@ import (
 
 	utiltime "github.com/trustbloc/did-go/doc/util/time"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/creator"
-	"github.com/trustbloc/vc-go/proof/ldproofs/bbsblssignature2020"
-	"github.com/trustbloc/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/creator"
+	"github.com/alangotbithin/vc-go/proof/ldproofs/bbsblssignature2020"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
 
-	. "github.com/trustbloc/vc-go/presexch"
-	"github.com/trustbloc/vc-go/sdjwt/common"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
-	"github.com/trustbloc/vc-go/verifiable"
+	. "github.com/alangotbithin/vc-go/presexch"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
+	"github.com/alangotbithin/vc-go/verifiable"
 )
 
 func ExamplePresentationDefinition_CreateVP_v2() {

@@ -17,8 +17,8 @@ import (
 
 	utiltime "github.com/trustbloc/did-go/doc/util/time"
 
-	. "github.com/trustbloc/vc-go/presexch"
-	"github.com/trustbloc/vc-go/verifiable"
+	. "github.com/alangotbithin/vc-go/presexch"
+	"github.com/alangotbithin/vc-go/verifiable"
 )
 
 const dummy = "DUMMY"

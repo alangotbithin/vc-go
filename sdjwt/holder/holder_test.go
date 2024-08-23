@@ -22,10 +22,10 @@ import (
 
 	"github.com/trustbloc/kms-go/doc/jose"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	"github.com/trustbloc/vc-go/sdjwt/common"
-	"github.com/trustbloc/vc-go/sdjwt/issuer"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
+	"github.com/alangotbithin/vc-go/sdjwt/issuer"
 )
 
 const (

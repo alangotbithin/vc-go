@@ -18,8 +18,8 @@ import (
 	ldtestutil "github.com/trustbloc/did-go/doc/ld/testutil"
 	kmsapi "github.com/trustbloc/kms-go/spi/kms"
 
-	"github.com/trustbloc/vc-go/proof/checker"
-	"github.com/trustbloc/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/proof/checker"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
 )
 
 //go:embed testdata/valid_credential.jsonld

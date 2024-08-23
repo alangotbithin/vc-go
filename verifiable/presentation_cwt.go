@@ -8,8 +8,8 @@ package verifiable
 import (
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/cwt"
-	"github.com/trustbloc/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/cwt"
+	"github.com/alangotbithin/vc-go/jwt"
 )
 
 func newCWTPresClaims(vp *Presentation, audience []string, minimizeVP bool) (*CWTPresClaims, error) {

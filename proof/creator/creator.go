@@ -15,9 +15,9 @@ import (
 	"github.com/trustbloc/kms-go/spi/kms"
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/cwt"
-	"github.com/trustbloc/vc-go/jwt"
-	proofdesc "github.com/trustbloc/vc-go/proof"
+	"github.com/alangotbithin/vc-go/cwt"
+	"github.com/alangotbithin/vc-go/jwt"
+	proofdesc "github.com/alangotbithin/vc-go/proof"
 )
 
 // ProofCreator incapsulate logic of proof creation.

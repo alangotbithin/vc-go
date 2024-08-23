@@ -13,7 +13,7 @@ import (
 	lddocloader "github.com/trustbloc/did-go/doc/ld/documentloader"
 	ldtestutil "github.com/trustbloc/did-go/doc/ld/testutil"
 
-	"github.com/trustbloc/vc-go/verifiable"
+	"github.com/alangotbithin/vc-go/verifiable"
 )
 
 type UniversityDegree struct {

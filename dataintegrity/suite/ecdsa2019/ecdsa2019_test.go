@@ -25,9 +25,9 @@ import (
 	"github.com/trustbloc/kms-go/doc/jose/jwk/jwksupport"
 	mockwrapper "github.com/trustbloc/kms-go/mock/wrapper"
 
-	"github.com/trustbloc/vc-go/crypto-ext/pubkey"
-	"github.com/trustbloc/vc-go/dataintegrity/models"
-	"github.com/trustbloc/vc-go/dataintegrity/suite"
+	"github.com/alangotbithin/vc-go/crypto-ext/pubkey"
+	"github.com/alangotbithin/vc-go/dataintegrity/models"
+	"github.com/alangotbithin/vc-go/dataintegrity/suite"
 )
 
 var (

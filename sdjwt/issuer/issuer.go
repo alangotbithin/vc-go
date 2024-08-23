@@ -56,10 +56,10 @@ import (
 	"github.com/trustbloc/kms-go/doc/jose"
 	"github.com/trustbloc/kms-go/doc/jose/jwk"
 
-	afgjwt "github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/sdjwt/common"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
-	utils "github.com/trustbloc/vc-go/util/maphelpers"
+	afgjwt "github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
+	utils "github.com/alangotbithin/vc-go/util/maphelpers"
 )
 
 const (

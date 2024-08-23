@@ -25,7 +25,7 @@ import (
 
 	kmsapi "github.com/trustbloc/kms-go/spi/kms"
 
-	jsonutil "github.com/trustbloc/vc-go/util/json"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
 )
 
 // JWSAlgorithm defines JWT signature algorithms of Verifiable Credential.

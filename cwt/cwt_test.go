@@ -21,10 +21,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/cwt"
-	"github.com/trustbloc/vc-go/proof"
-	"github.com/trustbloc/vc-go/proof/checker"
-	cwt2 "github.com/trustbloc/vc-go/verifiable/cwt"
+	"github.com/alangotbithin/vc-go/cwt"
+	"github.com/alangotbithin/vc-go/proof"
+	"github.com/alangotbithin/vc-go/proof/checker"
+	cwt2 "github.com/alangotbithin/vc-go/verifiable/cwt"
 )
 
 const (
@@ -143,7 +143,11 @@ func TestParse(t *testing.T) {
 				return errors.New("invalid proof")
 			})
 
-		resp, _, err := cwt.ParseAndCheckProof(input, proofChecker, true)
+		resp, _, err := cwt.ParseAndCheckProof(
+			input,
+			proofChecker,
+			true,
+		)
 		assert.ErrorContains(t, err, "invalid proof")
 		assert.Nil(t, resp)
 	})

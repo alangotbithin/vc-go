@@ -15,9 +15,9 @@ import (
 
 	gojose "github.com/go-jose/go-jose/v3"
 
-	"github.com/trustbloc/vc-go/crypto-ext/pubkey"
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/crypto-ext/verifiers/ed25519"
+	"github.com/alangotbithin/vc-go/crypto-ext/pubkey"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/crypto-ext/verifiers/ed25519"
 )
 
 func TestNewEd25519SignatureVerifier(t *testing.T) {

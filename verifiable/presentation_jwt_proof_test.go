@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
 
 	"github.com/trustbloc/kms-go/spi/kms"
 

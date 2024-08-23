@@ -8,7 +8,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/jwt"
 )
 
 type parsePresentationResponse struct {

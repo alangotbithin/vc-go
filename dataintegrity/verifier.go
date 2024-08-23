@@ -14,8 +14,8 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 
-	"github.com/trustbloc/vc-go/dataintegrity/models"
-	"github.com/trustbloc/vc-go/dataintegrity/suite"
+	"github.com/alangotbithin/vc-go/dataintegrity/models"
+	"github.com/alangotbithin/vc-go/dataintegrity/suite"
 )
 
 const (

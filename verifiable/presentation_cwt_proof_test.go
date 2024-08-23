@@ -15,7 +15,7 @@ import (
 	"github.com/trustbloc/kms-go/spi/kms"
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
 )
 
 func TestParsePresentationFromCWS_EdDSA(t *testing.T) {

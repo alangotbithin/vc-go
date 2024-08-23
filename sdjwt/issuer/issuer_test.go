@@ -28,10 +28,10 @@ import (
 	"github.com/trustbloc/kms-go/doc/jose/jwk"
 	"github.com/trustbloc/kms-go/doc/jose/jwk/jwksupport"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	afjwt "github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	"github.com/trustbloc/vc-go/sdjwt/common"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	afjwt "github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
 )
 
 const (

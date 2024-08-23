@@ -15,13 +15,13 @@ import (
 	vdrmock "github.com/trustbloc/did-go/vdr/mock"
 	"github.com/trustbloc/kms-go/spi/kms"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/creator"
-	"github.com/trustbloc/vc-go/proof/defaults"
-	"github.com/trustbloc/vc-go/proof/jwtproofs/eddsa"
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	"github.com/trustbloc/vc-go/vermethod"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/creator"
+	"github.com/alangotbithin/vc-go/proof/defaults"
+	"github.com/alangotbithin/vc-go/proof/jwtproofs/eddsa"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/vermethod"
 )
 
 const jwtTestCredential = `

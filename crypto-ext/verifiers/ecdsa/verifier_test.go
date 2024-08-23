@@ -14,9 +14,9 @@ import (
 	"github.com/trustbloc/kms-go/doc/jose/jwk"
 	kmsapi "github.com/trustbloc/kms-go/spi/kms"
 
-	"github.com/trustbloc/vc-go/crypto-ext/pubkey"
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/crypto-ext/verifiers/ecdsa"
+	"github.com/alangotbithin/vc-go/crypto-ext/pubkey"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/crypto-ext/verifiers/ecdsa"
 )
 
 func TestNewECDSAES256SignatureVerifier(t *testing.T) {

@@ -26,8 +26,8 @@ import (
 	"github.com/xeipuuv/gojsonschema"
 	"golang.org/x/exp/slices"
 
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
 )
 
 const singleCredentialSubject = `

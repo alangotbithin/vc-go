@@ -23,7 +23,7 @@ require (
 	github.com/trustbloc/did-go v1.2.1
 	github.com/trustbloc/kms-go v1.1.2
 	github.com/trustbloc/vc-go v1.1.2
-	github.com/veraison/go-cose v1.1.0
+	github.com/veraison/go-cose v1.3.0-rc.1.0.20240815161233-49d22c7548d5
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
 )

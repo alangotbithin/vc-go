@@ -14,12 +14,12 @@ import (
 	"github.com/trustbloc/kms-go/doc/jose"
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/proof/checker"
-	"github.com/trustbloc/vc-go/proof/jwtproofs/eddsa"
-	"github.com/trustbloc/vc-go/proof/ldproofs/ed25519signature2018"
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	"github.com/trustbloc/vc-go/proof/testsupport/commontest"
-	"github.com/trustbloc/vc-go/vermethod"
+	"github.com/alangotbithin/vc-go/proof/checker"
+	"github.com/alangotbithin/vc-go/proof/jwtproofs/eddsa"
+	"github.com/alangotbithin/vc-go/proof/ldproofs/ed25519signature2018"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/proof/testsupport/commontest"
+	"github.com/alangotbithin/vc-go/vermethod"
 )
 
 func TestProofChecker_AllLD(t *testing.T) {

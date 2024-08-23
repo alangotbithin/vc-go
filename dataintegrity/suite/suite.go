@@ -9,7 +9,7 @@ package suite
 import (
 	"errors"
 
-	"github.com/trustbloc/vc-go/dataintegrity/models"
+	"github.com/alangotbithin/vc-go/dataintegrity/models"
 )
 
 // RequiresCreated specifies that a data integrity suite implementation, must

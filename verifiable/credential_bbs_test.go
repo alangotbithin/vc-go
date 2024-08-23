@@ -16,13 +16,13 @@ import (
 	jsonld "github.com/trustbloc/did-go/doc/ld/processor"
 	"github.com/trustbloc/kms-go/spi/kms"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
-	"github.com/trustbloc/vc-go/proof/creator"
-	"github.com/trustbloc/vc-go/proof/defaults"
-	"github.com/trustbloc/vc-go/proof/ldproofs/bbsblssignature2020"
-	"github.com/trustbloc/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/proof/creator"
+	"github.com/alangotbithin/vc-go/proof/defaults"
+	"github.com/alangotbithin/vc-go/proof/ldproofs/bbsblssignature2020"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
 
-	jsonutil "github.com/trustbloc/vc-go/util/json"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
 )
 
 //nolint:lll

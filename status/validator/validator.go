@@ -11,8 +11,8 @@ package validator
 import (
 	"fmt"
 
-	"github.com/trustbloc/vc-go/status/api"
-	"github.com/trustbloc/vc-go/status/validator/statuslist2021"
+	"github.com/alangotbithin/vc-go/status/api"
+	"github.com/alangotbithin/vc-go/status/validator/statuslist2021"
 )
 
 // GetValidator returns the VC status list validator for the given status type.

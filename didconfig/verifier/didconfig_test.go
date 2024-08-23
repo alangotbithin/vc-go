@@ -20,9 +20,9 @@ import (
 	"github.com/trustbloc/did-go/vdr"
 	"github.com/trustbloc/kms-go/spi/kms"
 
-	afgjwt "github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/testsupport"
-	"github.com/trustbloc/vc-go/verifiable"
+	afgjwt "github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/testsupport"
+	"github.com/alangotbithin/vc-go/verifiable"
 )
 
 const (

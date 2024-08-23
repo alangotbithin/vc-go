@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/trustbloc/vc-go/crypto-ext/testutil"
+	"github.com/alangotbithin/vc-go/crypto-ext/testutil"
 )
 
 func ExampleNew() {

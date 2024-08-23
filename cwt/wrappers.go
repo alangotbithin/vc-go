@@ -11,7 +11,7 @@ import (
 
 	"github.com/veraison/go-cose"
 
-	"github.com/trustbloc/vc-go/proof/checker"
+	"github.com/alangotbithin/vc-go/proof/checker"
 )
 
 // Verifier verifies CWT proof.

@@ -20,8 +20,8 @@ import (
 
 	"github.com/trustbloc/kms-go/doc/jose"
 
-	afjwt "github.com/trustbloc/vc-go/jwt"
-	utils "github.com/trustbloc/vc-go/util/maphelpers"
+	afjwt "github.com/alangotbithin/vc-go/jwt"
+	utils "github.com/alangotbithin/vc-go/util/maphelpers"
 )
 
 const (

@@ -30,13 +30,13 @@ import (
 
 	util "github.com/trustbloc/did-go/doc/util/time"
 
-	"github.com/trustbloc/vc-go/cwt"
-	"github.com/trustbloc/vc-go/dataintegrity"
-	"github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/sdjwt/common"
-	jsonutil "github.com/trustbloc/vc-go/util/json"
-	cwt2 "github.com/trustbloc/vc-go/verifiable/cwt"
-	"github.com/trustbloc/vc-go/verifiable/lddocument"
+	"github.com/alangotbithin/vc-go/cwt"
+	"github.com/alangotbithin/vc-go/dataintegrity"
+	"github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/sdjwt/common"
+	jsonutil "github.com/alangotbithin/vc-go/util/json"
+	cwt2 "github.com/alangotbithin/vc-go/verifiable/cwt"
+	"github.com/alangotbithin/vc-go/verifiable/lddocument"
 )
 
 var errLogger = log.New(os.Stderr, " [vc-go/verifiable] ", log.Ldate|log.Ltime|log.LUTC)
@@ -1167,11 +1167,12 @@ func validateJSONLD(vcJSON JSONObject, vcOpts *credentialOpts) error {
 		docjsonld.WithStrictContextURIPosition(baseContext),
 	}
 
-	if vcOpts.jsonldIncludeDetailedStructureDiffOnError {
-		validateOpts = append(validateOpts,
-			docjsonld.WithJSONLDIncludeDetailedStructureDiffOnError(),
-		)
-	}
+	/*
+		if vcOpts.jsonldIncludeDetailedStructureDiffOnError {
+			validateOpts = append(validateOpts,
+				docjsonld.WithJSONLDIncludeDetailedStructureDiffOnError(),
+			)
+		}*/
 
 	return docjsonld.ValidateJSONLDMap(jsonutil.ShallowCopyObj(vcJSON),
 		validateOpts...,

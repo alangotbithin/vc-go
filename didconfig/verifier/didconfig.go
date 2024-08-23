@@ -22,10 +22,10 @@ import (
 	vdrapi "github.com/trustbloc/did-go/vdr/api"
 	"github.com/trustbloc/kms-go/doc/jose"
 
-	"github.com/trustbloc/vc-go/jwt"
-	"github.com/trustbloc/vc-go/proof/defaults"
-	"github.com/trustbloc/vc-go/verifiable"
-	"github.com/trustbloc/vc-go/vermethod"
+	"github.com/alangotbithin/vc-go/jwt"
+	"github.com/alangotbithin/vc-go/proof/defaults"
+	"github.com/alangotbithin/vc-go/verifiable"
+	"github.com/alangotbithin/vc-go/vermethod"
 )
 
 const (
