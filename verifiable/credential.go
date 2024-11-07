@@ -37,6 +37,9 @@ import (
 	jsonutil "github.com/alangotbithin/vc-go/util/json"
 	cwt2 "github.com/alangotbithin/vc-go/verifiable/cwt"
 	"github.com/alangotbithin/vc-go/verifiable/lddocument"
+	ldcontext "github.com/trustbloc/did-go/doc/ld/context"
+	lddocloader "github.com/trustbloc/did-go/doc/ld/documentloader"
+	ldtestutil "github.com/trustbloc/did-go/doc/ld/testutil"
 )
 
 var errLogger = log.New(os.Stderr, " [vc-go/verifiable] ", log.Ldate|log.Ltime|log.LUTC)
@@ -864,6 +867,21 @@ func WithJSONLDIncludeDetailedStructureDiffOnError() CredentialOpt {
 	return func(opts *credentialOpts) {
 		opts.jsonldIncludeDetailedStructureDiffOnError = true
 	}
+}
+
+// To-Do: need to move from this file, this is just for testing
+func ParseTestCredentialPublic(vcData []byte, opts ...CredentialOpt) (*Credential, error) {
+
+	return ParseCredential(vcData,
+		append([]CredentialOpt{WithJSONLDDocumentLoader(createDocumentLoader())}, opts...)...)
+}
+
+func createDocumentLoader(extraContexts ...ldcontext.Document) *lddocloader.DocumentLoader {
+	loader, err := ldtestutil.DocumentLoader(extraContexts...)
+	if err != nil {
+		return nil // need to change this
+	}
+	return loader
 }
 
 // parseIssuer parses raw issuer.
